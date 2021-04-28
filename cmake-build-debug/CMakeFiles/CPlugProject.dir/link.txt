@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CPlugProject.dir/objects.a
+D:\NDK_environment\mingw64\bin\ar.exe cr CMakeFiles\CPlugProject.dir/objects.a @CMakeFiles\CPlugProject.dir\objects1.rsp
+D:\NDK_environment\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CPlugProject.dir/objects.a -Wl,--no-whole-archive  -o CPlugProject.exe -Wl,--out-implib,libCPlugProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPlugProject.dir\linklibs.rsp

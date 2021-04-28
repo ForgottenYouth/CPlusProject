@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/NDK_workspace/CPlusProject/CustomPtr.h
+iostream
+-
+
+D:/NDK_workspace/CPlusProject/T7_Demo.cpp
+iostream
+-
+CustomPtr.h
+D:/NDK_workspace/CPlusProject/CustomPtr.h
+
